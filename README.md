@@ -126,7 +126,7 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 </details>
 
 <details>
-<summary><b>Trees</b> — 0/15</summary>
+<summary><b>Trees</b> — 1/15</summary>
 
 | # | Questão | Dificuldade | Solução |
 |--:|---------|-------------|---------|
@@ -139,7 +139,7 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 | 52 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | 🟡 Média |  |
 | 53 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 🟡 Média |  |
 | 54 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Média |  |
-| 55 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Média |  |
+| 55 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | 🟡 Média | ✅ [código](1148-CountGoodNodesInBinaryTree.py) |
 | 56 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Média |  |
 | 57 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | 🟡 Média |  |
 | 58 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Média |  |
