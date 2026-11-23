@@ -227,7 +227,7 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 </details>
 
 <details>
-<summary><b>1-D Dynamic Programming</b> — 1/12</summary>
+<summary><b>1-D Dynamic Programming</b> — 2/12</summary>
 
 | # | Questão | Dificuldade | Solução |
 |--:|---------|-------------|---------|
@@ -238,7 +238,7 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 | 103 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Média | ✅ [código](5-LongestPalindromicSubstring.py) |
 | 104 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | 🟡 Média |  |
 | 105 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | 🟡 Média |  |
-| 106 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Média |  |
+| 106 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Média | ✅ [código](322-CoinChange.py) |
 | 107 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 Média |  |
 | 108 | [Word Break](https://leetcode.com/problems/word-break/) | 🟡 Média |  |
 | 109 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | 🟡 Média |  |
