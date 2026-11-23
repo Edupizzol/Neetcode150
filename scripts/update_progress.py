@@ -2,10 +2,12 @@
 """Gera o card de progresso (SVG) e a seção de questões do README.
 
 Uma questão conta como resolvida quando existe no repositório algum arquivo
-ou pasta cujo nome contém o slug do LeetCode, ex.:
+ou pasta cujo nome contém o nome da questão (maiúsculas, hífens e _ são
+ignorados), ex.:
 
     0217-contains-duplicate.cpp
     arrays/contains-duplicate.py
+    1-TwoSum.py
     1-two-sum/            (pasta)
 
 Uso: python3 scripts/update_progress.py
@@ -45,15 +47,19 @@ MONO = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace"
 
 def find_solutions():
     """Mapeia slug -> caminho relativo da solução encontrada."""
-    slugs = sorted((p["slug"] for p in PROBLEMS), key=len, reverse=True)
-    patterns = [(s, re.compile(rf"(?<![a-z0-9]){re.escape(s)}(?![a-z0-9])")) for s in slugs]
+    def squash(s):
+        # ignora maiúsculas, hífens, _ e pontuação: "1-TwoSum" -> "1twosum"
+        return re.sub(r"[^a-z0-9]", "", s.lower())
+
+    slugs = sorted((p["slug"] for p in PROBLEMS), key=lambda s: len(squash(s)), reverse=True)
+    keys = [(s, squash(s)) for s in slugs]
     found = {}
 
     def match(name):
-        stem = name.lower().replace("_", "-").replace(" ", "-")
-        # o slug mais longo vence (two-sum-ii... não conta como two-sum)
-        for slug, pat in patterns:
-            if pat.search(stem):
+        stem = squash(name)
+        # o slug mais longo vence (TwoSumII não conta como TwoSum)
+        for slug, key in keys:
+            if key in stem:
                 return slug
         return None
 

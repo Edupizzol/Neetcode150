@@ -13,18 +13,19 @@ Minhas soluções da trilha [NeetCode 150](https://neetcode.io/practice), na ord
 
 O progresso é **automático**. Não precisa marcar nada à mão: a cada push, uma
 GitHub Action roda `scripts/update_progress.py`, que procura no repositório
-arquivos ou pastas cujo nome contém o *slug* da questão no LeetCode e atualiza
+arquivos ou pastas cujo nome contém o nome da questão (maiúsculas, hífens e `_`
+são ignorados) e atualiza
 a imagem acima e as tabelas abaixo.
 
 Exemplos de nomes que funcionam:
 
 ```text
+1-TwoSum.py
 0217-contains-duplicate.cpp
 two-pointers/0011-container-with-most-water.py
 3-two-sum/            (pasta)
 ```
 
-O slug é a parte final da URL: `leetcode.com/problems/`**`contains-duplicate`**`/`.
 Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress.py`.
 
 ## Questões
@@ -32,13 +33,13 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 <!-- PROGRESS:START -->
 
 <details>
-<summary><b>Arrays & Hashing</b> — 0/9</summary>
+<summary><b>Arrays & Hashing</b> — 1/9</summary>
 
 | # | Questão | Dificuldade | Solução |
 |--:|---------|-------------|---------|
 | 1 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Fácil |  |
 | 2 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Fácil |  |
-| 3 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Fácil |  |
+| 3 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Fácil | ✅ [código](1-TwoSum.py) |
 | 4 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Média |  |
 | 5 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Média |  |
 | 6 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Média |  |
@@ -62,12 +63,12 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 </details>
 
 <details>
-<summary><b>Sliding Window</b> — 0/6</summary>
+<summary><b>Sliding Window</b> — 1/6</summary>
 
 | # | Questão | Dificuldade | Solução |
 |--:|---------|-------------|---------|
 | 15 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Fácil |  |
-| 16 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Média |  |
+| 16 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 🟡 Média | ✅ [código](3-LongestSubstringWithoutRepeatingCharacters.py) |
 | 17 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | 🟡 Média |  |
 | 18 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | 🟡 Média |  |
 | 19 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | 🔴 Difícil |  |
@@ -106,7 +107,7 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 </details>
 
 <details>
-<summary><b>Linked List</b> — 0/11</summary>
+<summary><b>Linked List</b> — 1/11</summary>
 
 | # | Questão | Dificuldade | Solução |
 |--:|---------|-------------|---------|
@@ -115,7 +116,7 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 | 37 | [Reorder List](https://leetcode.com/problems/reorder-list/) | 🟡 Média |  |
 | 38 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 Média |  |
 | 39 | [Copy List With Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | 🟡 Média |  |
-| 40 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Média |  |
+| 40 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Média | ✅ [código](2-AddTwoNumbers.py) |
 | 41 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | 🟢 Fácil |  |
 | 42 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | 🟡 Média |  |
 | 43 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | 🟡 Média |  |
@@ -226,7 +227,7 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 </details>
 
 <details>
-<summary><b>1-D Dynamic Programming</b> — 0/12</summary>
+<summary><b>1-D Dynamic Programming</b> — 1/12</summary>
 
 | # | Questão | Dificuldade | Solução |
 |--:|---------|-------------|---------|
@@ -234,7 +235,7 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 | 100 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | 🟢 Fácil |  |
 | 101 | [House Robber](https://leetcode.com/problems/house-robber/) | 🟡 Média |  |
 | 102 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | 🟡 Média |  |
-| 103 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Média |  |
+| 103 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | 🟡 Média | ✅ [código](5-LongestPalindromicSubstring.py) |
 | 104 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | 🟡 Média |  |
 | 105 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | 🟡 Média |  |
 | 106 | [Coin Change](https://leetcode.com/problems/coin-change/) | 🟡 Média |  |
