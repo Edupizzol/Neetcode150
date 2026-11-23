@@ -312,7 +312,7 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 </details>
 
 <details>
-<summary><b>Bit Manipulation</b> — 0/7</summary>
+<summary><b>Bit Manipulation</b> — 1/7</summary>
 
 | # | Questão | Dificuldade | Solução |
 |--:|---------|-------------|---------|
@@ -322,7 +322,7 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 | 147 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | 🟢 Fácil |  |
 | 148 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Fácil |  |
 | 149 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | 🟡 Média |  |
-| 150 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Média |  |
+| 150 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | 🟡 Média | ✅ [código](7-ReverseInteger.py) |
 
 </details>
 
