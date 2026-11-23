@@ -247,14 +247,14 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 </details>
 
 <details>
-<summary><b>2-D Dynamic Programming</b> — 0/11</summary>
+<summary><b>2-D Dynamic Programming</b> — 1/11</summary>
 
 | # | Questão | Dificuldade | Solução |
 |--:|---------|-------------|---------|
 | 111 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | 🟡 Média |  |
 | 112 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | 🟡 Média |  |
 | 113 | [Best Time to Buy and Sell Stock With Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | 🟡 Média |  |
-| 114 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Média |  |
+| 114 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | 🟡 Média | ✅ [código](618-CoinChangeII.py) |
 | 115 | [Target Sum](https://leetcode.com/problems/target-sum/) | 🟡 Média |  |
 | 116 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | 🟡 Média |  |
 | 117 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | 🔴 Difícil |  |
