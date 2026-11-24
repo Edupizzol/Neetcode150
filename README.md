@@ -192,7 +192,7 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 </details>
 
 <details>
-<summary><b>Graphs</b> — 0/13</summary>
+<summary><b>Graphs</b> — 1/13</summary>
 
 | # | Questão | Dificuldade | Solução |
 |--:|---------|-------------|---------|
@@ -201,7 +201,7 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 | 82 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | 🟡 Média |  |
 | 83 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | 🟡 Média |  |
 | 84 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | 🟡 Média |  |
-| 85 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | 🟡 Média |  |
+| 85 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | 🟡 Média | ✅ [código](994-RottingOranges.py) |
 | 86 | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/) | 🟡 Média |  |
 | 87 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | 🟡 Média |  |
 | 88 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | 🟡 Média |  |
