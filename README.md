@@ -50,13 +50,13 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 </details>
 
 <details>
-<summary><b>Two Pointers</b> — 1/5</summary>
+<summary><b>Two Pointers</b> — 2/5</summary>
 
 | # | Questão | Dificuldade | Solução |
 |--:|---------|-------------|---------|
 | 10 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | 🟢 Fácil |  |
 | 11 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟡 Média |  |
-| 12 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 Média |  |
+| 12 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 Média | ✅ [código](15-3Sum.py) |
 | 13 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Média | ✅ [código](11-ContainerWithMostWater.py) |
 | 14 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Difícil |  |
 
