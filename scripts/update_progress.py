@@ -16,6 +16,7 @@ Uso: python3 scripts/update_progress.py
 import json
 import os
 import re
+import subprocess
 from pathlib import Path
 from urllib.parse import quote
 
@@ -63,20 +64,39 @@ def find_solutions():
                 return slug
         return None
 
-    for dirpath, dirnames, filenames in os.walk(ROOT):
-        dirnames[:] = sorted(d for d in dirnames if d not in IGNORED_DIRS and not d.startswith("."))
-        rel_dir = Path(dirpath).relative_to(ROOT)
-        for d in dirnames:
-            slug = match(d)
+    for path in repo_files():
+        parts = path.split("/")
+        if parts[0] in IGNORED_DIRS or any(p.startswith(".") for p in parts):
+            continue
+        # pastas primeiro (ex.: 1-two-sum/sol.cpp aponta pra pasta), depois o arquivo
+        for i in range(len(parts) - 1):
+            slug = match(parts[i])
             if slug and slug not in found:
-                found[slug] = (rel_dir / d).as_posix()
-        for f in sorted(filenames):
-            if f in IGNORED_FILES or f.startswith("."):
-                continue
-            slug = match(Path(f).stem)
-            if slug and slug not in found:
-                found[slug] = (rel_dir / f).as_posix()
+                found[slug] = "/".join(parts[: i + 1])
+        name = parts[-1]
+        if name in IGNORED_FILES:
+            continue
+        slug = match(Path(name).stem)
+        if slug and slug not in found:
+            found[slug] = path
     return found
+
+
+def repo_files():
+    """Arquivos versionados ou no stage (o que vai pro commit).
+
+    Arquivos não rastreados ficam de fora, pra o hook local e a Action
+    chegarem sempre no mesmo resultado. Fora de um repo git, lista a pasta.
+    """
+    try:
+        out = subprocess.run(
+            ["git", "ls-files", "-z"], cwd=ROOT, capture_output=True, check=True
+        ).stdout.decode("utf-8")
+        return sorted(p for p in out.split("\0") if p)
+    except (OSError, subprocess.CalledProcessError):
+        return sorted(
+            p.relative_to(ROOT).as_posix() for p in ROOT.rglob("*") if p.is_file()
+        )
 
 
 def topics():
