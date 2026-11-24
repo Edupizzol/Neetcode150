@@ -247,7 +247,7 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 </details>
 
 <details>
-<summary><b>2-D Dynamic Programming</b> — 2/11</summary>
+<summary><b>2-D Dynamic Programming</b> — 1/11</summary>
 
 | # | Questão | Dificuldade | Solução |
 |--:|---------|-------------|---------|
@@ -261,7 +261,7 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 | 118 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | 🔴 Difícil |  |
 | 119 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | 🟡 Média |  |
 | 120 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | 🔴 Difícil |  |
-| 121 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 Difícil | ✅ [código](10-RegularExpressionMatching.py) |
+| 121 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | 🔴 Difícil |  |
 
 </details>
 
