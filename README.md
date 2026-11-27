@@ -107,14 +107,14 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 </details>
 
 <details>
-<summary><b>Linked List</b> — 1/11</summary>
+<summary><b>Linked List</b> — 2/11</summary>
 
 | # | Questão | Dificuldade | Solução |
 |--:|---------|-------------|---------|
 | 35 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Fácil |  |
 | 36 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Fácil |  |
 | 37 | [Reorder List](https://leetcode.com/problems/reorder-list/) | 🟡 Média |  |
-| 38 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 Média |  |
+| 38 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 Média | ✅ [código](19-RemoveNthNodeFromEndOfList.py) |
 | 39 | [Copy List With Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | 🟡 Média |  |
 | 40 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Média | ✅ [código](2-AddTwoNumbers.py) |
 | 41 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | 🟢 Fácil |  |
