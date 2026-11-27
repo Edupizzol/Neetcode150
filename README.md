@@ -77,11 +77,11 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 </details>
 
 <details>
-<summary><b>Stack</b> — 0/7</summary>
+<summary><b>Stack</b> — 1/7</summary>
 
 | # | Questão | Dificuldade | Solução |
 |--:|---------|-------------|---------|
-| 21 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 Fácil |  |
+| 21 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 Fácil | ✅ [código](20-ValidParentheses.py) |
 | 22 | [Min Stack](https://leetcode.com/problems/min-stack/) | 🟡 Média |  |
 | 23 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 Média |  |
 | 24 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | 🟡 Média |  |
