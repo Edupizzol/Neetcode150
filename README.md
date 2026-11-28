@@ -107,12 +107,12 @@ Para atualizar localmente sem esperar a Action: `python3 scripts/update_progress
 </details>
 
 <details>
-<summary><b>Linked List</b> — 2/11</summary>
+<summary><b>Linked List</b> — 3/11</summary>
 
 | # | Questão | Dificuldade | Solução |
 |--:|---------|-------------|---------|
 | 35 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Fácil |  |
-| 36 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Fácil |  |
+| 36 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Fácil | ✅ [código](21.MergeTwoSortedLists.py) |
 | 37 | [Reorder List](https://leetcode.com/problems/reorder-list/) | 🟡 Média |  |
 | 38 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 🟡 Média | ✅ [código](19-RemoveNthNodeFromEndOfList.py) |
 | 39 | [Copy List With Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | 🟡 Média |  |
